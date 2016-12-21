@@ -10,3 +10,6 @@ else
 fi
 
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+
+# no documentation when installing gems
+echo "gem: --no-document" >> $HOME/.gemrc
