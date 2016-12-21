@@ -6,7 +6,7 @@ then
   echo 'eval "$(rbenv init -)"' >> ~/.bash_rc
 else
   echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
-  echo 'eval "$(rbenv init -)"' >> ~/.bash_rc
+  echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 fi
 
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
