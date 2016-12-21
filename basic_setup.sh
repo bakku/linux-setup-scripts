@@ -8,4 +8,5 @@ mkdir -p Development/bakku
 cd Development/bakku
 git clone https://github.com/bakku/dotfiles
 cp dotfiles/.vimrc $HOME
-
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+mkdir -p .vim/tmp
